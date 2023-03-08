@@ -8,4 +8,5 @@ class roleController {
   }
 }
 
+// eslint-disable-next-line new-cap
 module.exports = new roleController()

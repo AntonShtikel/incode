@@ -1,8 +1,6 @@
-const { User, Role } = require('../entities')
+const { User} = require('../entities')
 
 const bcrypt = require('bcryptjs')
-const { where } = require('sequelize')
-
 class userController {
   async userCreate (req, res) {
     try {
@@ -95,4 +93,5 @@ class userController {
   }
 }
 
+// eslint-disable-next-line new-cap
 module.exports = new userController()
